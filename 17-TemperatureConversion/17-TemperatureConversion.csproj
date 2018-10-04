@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B8C47301-0103-42ED-8370-F8FAAF46DB24}</ProjectGuid>
+    <ProjectGuid>{22ED4A2B-530E-4BE6-90DD-7CC9B426CB3B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_14_Parameters</RootNamespace>
-    <AssemblyName>14-Parameters</AssemblyName>
+    <RootNamespace>_17_TemperatureConversion</RootNamespace>
+    <AssemblyName>17-TemperatureConversion</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
