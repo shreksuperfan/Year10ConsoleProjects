@@ -49,6 +49,10 @@ namespace _12_BetterAreaCalculator
                 float height = float.Parse(Console.ReadLine());
                 Console.WriteLine("Area: " + (0.5 * width * height));
             }
+            else
+            {
+                Console.WriteLine("Invalid Choice!");
+            }
 
             // Wait
             Console.WriteLine();

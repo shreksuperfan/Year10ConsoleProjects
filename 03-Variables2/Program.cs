@@ -16,7 +16,7 @@ namespace _03_Variables2
             // 3. Create a 'boolean' variable and assign it either true or false
 
 
-            // 4. Output a message that contains your whole number variable (e.g. "There are 27 days until christmas")
+            // 4. Output a message for each of your variables (e.g. "There are 27 days until christmas")
 
 
             // 5. Make the program wait for input at the end
@@ -26,9 +26,8 @@ namespace _03_Variables2
 
         static void ExtensionTasks()
         {
-            // 1. Try creating output messages for your float and bool variables as well
-            // 2. Use Google to find out what other data types are in C#, then have a go at using them
-            // 3. Find out how to join variables to strings using "String Interpolation"
+            // 1. Use Google to find out what other data types are in C#, then have a go at using them
+            // 2. Find out how to join variables to strings using "String Interpolation"
         }
 
         static void Questions()

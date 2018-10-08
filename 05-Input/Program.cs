@@ -12,7 +12,7 @@ namespace _05_Input
             // 2. Assign the result to a variable
 
 
-            // 3. Output the result to the console
+            // 3. Output a message containing the user's name. e.g. "Hello John!"
 
 
             // 4. Wait for input before closing the program

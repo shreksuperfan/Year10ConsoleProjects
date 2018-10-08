@@ -9,8 +9,11 @@ namespace _14_Parameters
             // 1. Create a subroutine called "SayHello" to print the message "Hello (name)"
 
 
-            // The following subroutine takes two numbers, adds them and prints the result.
+            // The following subroutine takes two integers, adds them and prints the result.
             AddNumbers(3, 7);
+
+            // 2. Create a subroutine called "SubtractNumbers" that takes takes two integers, subtracts one and prints the result
+
 
             // The "Wait" subroutine is called here
             Wait(ConsoleColor.Blue);

@@ -64,6 +64,7 @@ namespace _15_Functions
         {
             // 1. Try creating extra functions with parameters that do whatever you like
             // 2. Experiment with different data types for the parameters and return types
+            // 3. Are there any further ways to abstract away the details of this program (e.g. InputAndAddTwoNumbers)?
         }
     }
 }
