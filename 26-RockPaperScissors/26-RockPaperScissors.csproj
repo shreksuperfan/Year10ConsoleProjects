@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{288FBFD5-5AC3-4D33-A6B9-FA7DDE81686C}</ProjectGuid>
+    <ProjectGuid>{E72103F8-95A4-4CB6-8360-D642EDEC8920}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_25_GuessMyNumber</RootNamespace>
-    <AssemblyName>25-GuessMyNumber</AssemblyName>
+    <RootNamespace>_26_RockPaperScissors</RootNamespace>
+    <AssemblyName>26-RockPaperScissors</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

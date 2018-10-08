@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-NestedLoops", "23-Nested
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-Pyramid", "24-Pyramid\24-Pyramid.csproj", "{36D69EF2-5CD9-4BF8-BF89-9832B2EC47D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-GuessMyNumber", "25-GuessMyNumber\25-GuessMyNumber.csproj", "{288FBFD5-5AC3-4D33-A6B9-FA7DDE81686C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-RockPaperScissors", "26-RockPaperScissors\26-RockPaperScissors.csproj", "{E72103F8-95A4-4CB6-8360-D642EDEC8920}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{36D69EF2-5CD9-4BF8-BF89-9832B2EC47D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D69EF2-5CD9-4BF8-BF89-9832B2EC47D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D69EF2-5CD9-4BF8-BF89-9832B2EC47D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288FBFD5-5AC3-4D33-A6B9-FA7DDE81686C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288FBFD5-5AC3-4D33-A6B9-FA7DDE81686C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288FBFD5-5AC3-4D33-A6B9-FA7DDE81686C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288FBFD5-5AC3-4D33-A6B9-FA7DDE81686C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72103F8-95A4-4CB6-8360-D642EDEC8920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72103F8-95A4-4CB6-8360-D642EDEC8920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72103F8-95A4-4CB6-8360-D642EDEC8920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72103F8-95A4-4CB6-8360-D642EDEC8920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
