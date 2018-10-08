@@ -54,6 +54,7 @@ namespace _22_EvenBetterAreaCalculator
         {
             // 1. Re-create 'Distance conversion' so that it loops back to the main menu
             // 2. Re-create 'Temperature conversion' so that it loops back to the main menu
+            // 3. Create an average number calculator that works with any amount of numbers
         }
 
         private static string RunMenuOptions()
