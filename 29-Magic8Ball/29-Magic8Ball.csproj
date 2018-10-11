@@ -7,7 +7,7 @@
     <ProjectGuid>{E2462D8D-3F3A-4738-BEED-0E91430AFD60}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_29_Magic8Ball</RootNamespace>
-    <AssemblyName>_29_Magic8Ball</AssemblyName>
+    <AssemblyName>29-Magic8Ball</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

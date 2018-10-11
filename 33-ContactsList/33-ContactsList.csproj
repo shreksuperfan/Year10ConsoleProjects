@@ -7,7 +7,7 @@
     <ProjectGuid>{AB10F986-0CB8-4546-84BB-77E6AC717DBF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_33_ContactsList</RootNamespace>
-    <AssemblyName>_33_ContactsList</AssemblyName>
+    <AssemblyName>33-ContactsList</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

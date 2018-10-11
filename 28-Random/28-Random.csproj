@@ -7,7 +7,7 @@
     <ProjectGuid>{415B7DAA-4236-4092-B5F8-820A4176B40A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_28_Random</RootNamespace>
-    <AssemblyName>_28_Random</AssemblyName>
+    <AssemblyName>28-Random</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

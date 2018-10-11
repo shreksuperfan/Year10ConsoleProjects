@@ -7,7 +7,7 @@
     <ProjectGuid>{756EC169-862C-4E6A-AACA-26A1F4C7BD30}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_34_Quiz</RootNamespace>
-    <AssemblyName>_34_Quiz</AssemblyName>
+    <AssemblyName>34-Quiz</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
