@@ -5,12 +5,12 @@ namespace _26_RockPaperScissors
     class Program
     {
         // Global variables
-        int userScore = 0;
-        int computerScore = 0;
-        bool repeat = true;
-        string result = "";
+        static int userScore = 0;
+        static int computerScore = 0;
+        static bool repeat = true;
+        static string result = "";
 
-        void Main(string[] args)
+        static void Main(string[] args)
         {
             // This is the game loop
             // It consists of a set of distinct tasks
