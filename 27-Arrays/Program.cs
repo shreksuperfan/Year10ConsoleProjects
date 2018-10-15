@@ -193,6 +193,12 @@ namespace _27_Arrays
                 Console.WriteLine(item);
         }
 
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_arrays.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
+        }
+
         private static void WaitForKeyPress(string message)
         {
             Console.WriteLine();

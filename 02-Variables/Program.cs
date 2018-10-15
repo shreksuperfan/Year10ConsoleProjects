@@ -40,5 +40,11 @@ namespace _02_Variables
             // Console.WriteLine("My message is: " + example);
             // Console.ReadLine();
         }
+
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_variables.htm
+            // https://www.tutorialspoint.com/csharp/csharp_data_types.htm
+        }
     }
 }

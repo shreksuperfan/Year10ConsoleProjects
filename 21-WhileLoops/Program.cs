@@ -69,6 +69,12 @@ namespace _21_WhileLoops
             // RunSecureProgramAfterPasswordCheck();
         }
 
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_while_loop.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
+        }
+
         private static void WaitAtEnd()
         {
             Console.ForegroundColor = ConsoleColor.Red;

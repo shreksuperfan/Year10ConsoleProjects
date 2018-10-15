@@ -58,5 +58,11 @@ namespace _08_Selection
             //     Console.WriteLine("My name is NOT Jeff!!!");
             // }
         }
+
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_decision_making.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
+        }
     }
 }

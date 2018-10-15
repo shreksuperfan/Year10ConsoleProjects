@@ -90,7 +90,12 @@ namespace _10_NumberOperations2
                     END IF                    
                 END             
              */
+        }
 
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_operators.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/operators
         }
     }
 }

@@ -41,5 +41,11 @@ namespace _13_Subroutines
             // 2. Try calling the subroutines multiple times
             // 3. Try calling a subroutine from within another
         }
+
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_methods.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
+        }
     }
 }

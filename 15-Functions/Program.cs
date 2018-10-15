@@ -66,5 +66,11 @@ namespace _15_Functions
             // 2. Experiment with different data types for the parameters and return types
             // 3. Are there any further ways to abstract away the details of this program (e.g. InputAndAddTwoNumbers)?
         }
+
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_methods.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
+        }
     }
 }

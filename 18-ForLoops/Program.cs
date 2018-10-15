@@ -79,6 +79,12 @@ namespace _18_ForLoops
             // }
         }
 
+        static void Links()
+        {
+            // https://www.tutorialspoint.com/csharp/csharp_for_loop.htm
+            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for
+        }
+
         private static void WaitAtEnd()
         {
             Console.ForegroundColor = ConsoleColor.Red;
