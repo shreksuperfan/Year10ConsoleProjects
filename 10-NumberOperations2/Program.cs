@@ -8,11 +8,11 @@ namespace _10_NumberOperations2
         {
             // Input X
             Console.WriteLine("Please enter a number for X:");
-            float x = float.Parse(Console.ReadLine());
+            double x = double.Parse(Console.ReadLine());
 
             // Input Y
             Console.WriteLine("Please enter a number for Y:");
-            float y = float.Parse(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
 
             // 1. Ask the user which mathematical operation they would like to do
 
@@ -28,74 +28,59 @@ namespace _10_NumberOperations2
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
-
-        static void Questions()
-        {
-            // 1. What is the difference between Console.ReadLine()? and Console.ReadKey()?
-            // 
-            // 
-            // 2. Why do we store the choice as a string?
-            // 
-            // 
-        }
-
-        static void ExampleOutput()
-        {
-            // This is an example of the program's output:
-            // 
-            // Please enter a number for X:
-            // 7
-            // Please enter a number for Y:
-            // 3
-            // 
-            // What would you like to do:
-            // 1. Addition
-            // 2. Subtraction
-            // 3. Multiplication
-            // 4. Division
-            // 
-            // 1
-            // 
-            // The answer is: 10
-            // 
-            // "Press any key to continue...
-        }
-
-        static void Pseudocode()
-        {
-            /* 
-                BEGIN
-                    PRINT "Please enter a number for X:"
-                    INPUT x
-                    PRINT "Please enter a number for Y:"
-                    INPUT y
-
-                    PRINT "What would you like to do:"
-                    PRINT "1. Addition"
-                    PRINT "2. Subtraction"
-                    PRINT "3. Multiplication"
-                    PRINT "4. Division"
-                    INPUT choice
-
-                    IF choice = 1 THEN
-                        PRINT "The answer is: " x + y
-                    ELSE IF choice = 2 THEN
-                        PRINT "The answer is: " x - y
-                    ELSE IF choice = 3 THEN
-                        PRINT "The answer is: " x * y
-                    ELSE IF choice = 4 THEN
-                        PRINT "The answer is: " x / y
-                    ELSE
-                        PRINT "Invalid choice"
-                    END IF                    
-                END             
-             */
-        }
-
-        static void Links()
-        {
-            // https://www.tutorialspoint.com/csharp/csharp_operators.htm
-            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/operators
-        }
     }
-}
+ }
+
+
+/* ------------------------------------------------------------------------------------------ /
+
+EXTENSION TASKS:
+
+1. Research online to find out how to do powers. E.g X to the power of Y
+2. Research online to find out how to use the 'ToString()' function to round the answer to two decimal places.
+
+
+QUESTIONS:
+        
+1. What is the difference between Console.ReadLine()? and Console.ReadKey()?
+
+
+
+
+2. Why do we store the choice as a string?
+
+
+
+
+
+EXAMPLE:
+
+This is an example of the program's output:
+
+  Please enter a number for X:
+  7
+  Please enter a number for Y:
+  3
+  
+  What would you like to do:
+  1. Addition
+  2. Subtraction
+  3. Multiplication
+  4. Division
+   
+  1
+  
+  The answer is: 10
+  
+  Press any key to continue...
+
+
+
+WHEN FINISHED:
+
+1. Click the Save All button
+2. Go to http://www.peergrade.io to submit this Program.cs file
+3. Give feedback to two of your classmates, and review the feedback you have received
+4. If the feedback suggests that there is room for improvement, you may come back and modify your code / answers
+   
+/ ------------------------------------------------------------------------------------------ */

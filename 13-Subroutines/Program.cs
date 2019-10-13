@@ -14,7 +14,7 @@ namespace _13_Subroutines
 
         }
 
-        private static void Wait()
+        static void Wait()
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine();
@@ -39,7 +39,7 @@ namespace _13_Subroutines
         {
             // 1. Try creating extra subroutines that do whatever you like
             // 2. Try calling the subroutines multiple times
-            // 3. Try calling a subroutine from within another
+            // 3. Try calling one subroutine from within another
         }
 
         static void Links()
@@ -49,3 +49,21 @@ namespace _13_Subroutines
         }
     }
 }
+
+
+/* ------------------------------------------------------------------------------------------ /
+
+NOTE:
+
+Now that we have learnt about subroutines, I have embedded the questions, extensions tasks and so on into 'fake' subrooutines.
+This will be the last comment section at the bottom you see. Don't forget to submit your work at Peergrade for each future program!
+
+
+WHEN FINISHED:
+
+1. Click the Save All button
+2. Go to http://www.peergrade.io to submit this Program.cs file
+3. Give feedback to two of your classmates, and review the feedback you have received
+4. If the feedback suggests that there is room for improvement, you may come back and modify your code / answers
+   
+/ ------------------------------------------------------------------------------------------ */

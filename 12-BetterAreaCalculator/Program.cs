@@ -74,3 +74,28 @@ namespace _12_BetterAreaCalculator
         }
     }
 }
+
+/* ------------------------------------------------------------------------------------------ /
+
+TASK:
+
+Complete task 1 and 2 as outlined in the code.
+These tasks involve 'refactoring' the code into chunks.
+
+
+QUESTIONS:
+
+1. What is the purpose of splitting the code into smaller chunks?
+
+
+
+
+
+WHEN FINISHED:
+
+1. Click the Save All button
+2. Go to http://www.peergrade.io to submit this Program.cs file
+3. Give feedback to two of your classmates, and review the feedback you have received
+4. If the feedback suggests that there is room for improvement, you may come back and modify your code / answers
+   
+/ ------------------------------------------------------------------------------------------ */
