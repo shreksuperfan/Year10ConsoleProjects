@@ -20,17 +20,14 @@ namespace _15_Functions
             int additionResult2 = AddNumbers(3, 7);
             Console.WriteLine($"3 plus 7 equals {additionResult2}");
 
-            // 1. Create a function called MultiplyNumbers that takes two integers
-            // 2. Create an integer variable called "multiplicationResult" and call the function using x and y
+            // 1. Create a function called MultiplyNumbers that takes two integers, multiplies them and returns the result
+            // 2. Create a variable called "multiplicationResult" of type 'int' and assign it the result of the MultiplyNumbers function using 7 and 5
 
 
-            // 3. Output the result of the multiplication below
+            // 3. Output the result of the multiplication below. E.g. 7 times 5 = 35
 
 
-            // 4. Create an integer variable called "multiplicationResult2" and call the function using 3 and 7
-
-
-            // 5. Output the result of the second multiplication below
+            // 4. Output the result of the MultiplyNumbers function using x and y with only one line of code
 
 
             // The "Wait" subroutine is called here

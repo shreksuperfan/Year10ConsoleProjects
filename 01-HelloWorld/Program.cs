@@ -9,7 +9,6 @@ namespace _01_HelloWorld
             // 1. Output 'Hello World!' to the console screen by using 'Console.WriteLine();'
 
 
-
             // 2. Make the program wait for input by using 'Console.ReadLine();'
 
 

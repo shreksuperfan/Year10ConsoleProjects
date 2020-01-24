@@ -37,7 +37,7 @@ EXTENSION TASKS:
 
 QUESTIONS:
         
-1. What is the purpose of the ELSE statement in this program?
+1. What is the purpose of the final ELSE statement in this program?
 
 
 

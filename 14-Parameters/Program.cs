@@ -9,13 +9,13 @@ namespace _14_Parameters
             // 1. Create a subroutine called "SayHello" to print the message "Hello (name)"
 
 
-            // The following subroutine takes two integers, adds them and prints the result.
+            // Example: The following subroutine takes two integers, adds them and prints the result.
             AddNumbers(3, 7);
 
-            // 2. Create a subroutine called "SubtractNumbers" that takes takes two integers, subtracts one and prints the result
+            // 2. Create a subroutine called "SubtractNumbers" that takes two integers, subtracts one and prints the result
 
 
-            // The "Wait" subroutine is called here
+            // The "Wait" subroutine is called here. Notice it takes a colour as a parameter.
             Wait(ConsoleColor.Blue);
         }
 
@@ -40,7 +40,7 @@ namespace _14_Parameters
             // 1. What is a parameter?
             // 
             // 
-            // 2. What two things does a parameter need when you create a subroutine?
+            // 2. When writing a subroutine, what two things do you need to supply to create a parameter for it?
             // 
             // 
         }
