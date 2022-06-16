@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HelloWorld", "01-HelloWorld\01-HelloWorld.csproj", "{A76DCC82-1C1E-46C5-BB83-91EFC04841B3}"
 EndProject
@@ -70,6 +70,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33-ContactsList", "33-ContactsList\33-ContactsList.csproj", "{AB10F986-0CB8-4546-84BB-77E6AC717DBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34-Quiz", "34-Quiz\34-Quiz.csproj", "{756EC169-862C-4E6A-AACA-26A1F4C7BD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35-APIs", "35-APIs\35-APIs.csproj", "{5E86C9E6-A981-4107-AEAF-8FC183329F87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{756EC169-862C-4E6A-AACA-26A1F4C7BD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{756EC169-862C-4E6A-AACA-26A1F4C7BD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{756EC169-862C-4E6A-AACA-26A1F4C7BD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E86C9E6-A981-4107-AEAF-8FC183329F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E86C9E6-A981-4107-AEAF-8FC183329F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E86C9E6-A981-4107-AEAF-8FC183329F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E86C9E6-A981-4107-AEAF-8FC183329F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
