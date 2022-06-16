@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB10F986-0CB8-4546-84BB-77E6AC717DBF}</ProjectGuid>
+    <ProjectGuid>{5E86C9E6-A981-4107-AEAF-8FC183329F87}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_33_ContactsList</RootNamespace>
-    <AssemblyName>33-ContactsList</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>_35_APIs</RootNamespace>
+    <AssemblyName>_35_APIs</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
