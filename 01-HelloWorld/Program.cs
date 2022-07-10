@@ -7,10 +7,10 @@ namespace _01_HelloWorld
         static void Main(string[] args)
         {
             // 1. Output 'Hello World!' to the console screen by using 'Console.WriteLine();'
-
+            Console.WriteLine("Hello World!");
 
             // 2. Make the program wait for input by using 'Console.ReadLine();'
-            
+            Console.ReadLine();
         }
     }
 }
