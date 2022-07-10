@@ -28,7 +28,7 @@ namespace _02_Variables
 EXTENSION TASKS:
 
 1. Try creating two string variables and using them in the same message
-2. Use Google to work out how to change variable to uppercase or lowercase before outputting it
+2. Use Google to work out how to change a variable to uppercase or lowercase before outputting it
 
 
 QUESTIONS:

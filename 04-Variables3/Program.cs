@@ -16,7 +16,7 @@ namespace _04_Variables3
             
             // Do not modify these lines:
 
-            Console.WriteLine("As of " + year.ToString() + " the population of " + country + " was " + population.ToString() + " billion.");
+            Console.WriteLine($"As of {year.ToString()} the population of {country} was {population.ToString()} billion.");
             Console.ReadLine();
         }
     }

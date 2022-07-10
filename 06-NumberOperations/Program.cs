@@ -46,6 +46,7 @@ EXTENSION TASKS:
 
 1. Modify the program to work with the 'double' type
 2. Use Google to work out how to get the remainder of a division using the 'modulus operator'
+3. Find out what happens if you use integers when dividing
 
 
 QUESTIONS:

@@ -8,19 +8,20 @@ namespace _03_Variables2
         {
 
             // 1. Create an 'integer' variable and assign it a whole number
-
+            
 
             // 2. Create a 'floating point' variable and assign it a decimal number
             
 
             // 3. Create a 'boolean' variable and assign it either true or false
+            
 
-
-            // 4. Output a message for each of your variables (e.g. "There are 27 days until christmas", "Avatar scored 7.8 on the IMDb", "Is the door open? false")
-
+            // 4. Output a message for each of your variables
+            // E.g. "There are 27 days until christmas", "Avatar scored 7.8 on the IMDb", "Is the door open? false"
+            
 
             // 5. Make the program wait for input at the end
-            
+
 
         }
     }
@@ -42,7 +43,7 @@ QUESTIONS:
 
 
 
-2. What is the best data type for decimal numbers?
+2. What data types can be used for decimal numbers?
 
 
 
