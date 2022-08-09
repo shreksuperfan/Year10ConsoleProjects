@@ -7,16 +7,17 @@ namespace _02_Variables
         static void Main(string[] args)
         {
             // 1. Create a string variable and assign it a value
-            
-
+            string firstname = "tom ";
+            string lastname = "sullivan";
 
             // 2. Output a message that contains this variable
-
-
+            Console.WriteLine($"hello my name is {firstname} {lastname}");
 
             // 3. Make the program wait for input
+            Console.WriteLine("my name is "+firstname); 
 
 
+            Console.ReadLine();     
 
         }
     }
