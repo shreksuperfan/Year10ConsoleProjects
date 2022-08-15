@@ -8,20 +8,22 @@ namespace _03_Variables2
         {
 
             // 1. Create an 'integer' variable and assign it a whole number
-            
+            int days = 27;
 
             // 2. Create a 'floating point' variable and assign it a decimal number
-            
+            float no = 78.69f;
 
             // 3. Create a 'boolean' variable and assign it either true or false
-            
+           bool slurping = true;
 
             // 4. Output a message for each of your variables
             // E.g. "There are 27 days until christmas", "Avatar scored 7.8 on the IMDb", "Is the door open? false"
-            
 
+            Console.WriteLine($"there are {days} days until christmas");
+            Console.WriteLine($"am i slurping:{slurping}");
+            Console.WriteLine($"there are {no} pugs in the german town of ugenflaffentrundelboogle");
             // 5. Make the program wait for input at the end
-
+            Console.ReadLine();
 
         }
     }
@@ -39,12 +41,12 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What is a the best data type for a whole number?
-
+integer
 
 
 
 2. What data types can be used for decimal numbers?
-
+floating point
 
 
 
