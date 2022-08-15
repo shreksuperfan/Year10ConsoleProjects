@@ -9,9 +9,9 @@ namespace _04_Variables3
             // 1. This program has 3 errors that you can fix by creating some variables.
             //    Create the correct variables using 3 different data types so that the WriteLine statement outputs:
             //    "As of 2016 the population of China was 1.379 billion."
-
-
-
+            int year = 2016;
+            string country = "china";
+            float population = 1.379f;
 
             
             // Do not modify these lines:
