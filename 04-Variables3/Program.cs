@@ -32,7 +32,7 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What is a the purpose of 'ToString()' for some of the variables?
-
+to convert numbers to text
 
 
 
