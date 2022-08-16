@@ -7,19 +7,19 @@ namespace _05_Input
         static void Main(string[] args)
         {
             // 1. Ask for the user's name
-
+            Console.WriteLine("what's your name");
 
 
             // 2. Assign the result to a variable
-
+            string name = Console.ReadLine(); 
 
 
             // 3. Output a message containing the user's name. e.g. "Hello John!"
-
+            Console.WriteLine($"hello {name}");
 
 
             // 4. Wait for input before closing the program
-
+            Console.ReadLine();
 
 
         }
@@ -37,12 +37,12 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What does assignment mean?
-
+to assign a value to a variable
 
 
 
 2. What does Console.ReadLine() do?
-
+it waits for input and stores that input
 
 
 
