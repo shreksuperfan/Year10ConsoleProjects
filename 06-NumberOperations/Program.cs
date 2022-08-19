@@ -12,8 +12,8 @@ namespace _06_NumberOperations
             float x = float.Parse(Console.ReadLine());
 
             // 1. Now do the same for the variable 'y'
-
-
+            Console.WriteLine("please enter a number for y");
+            float y= float.Parse(Console.ReadLine());  
 
 
             // We can then perform some mathematical operations on it. E.g. addition with +
@@ -21,20 +21,20 @@ namespace _06_NumberOperations
             Console.WriteLine("X plus Y = " + (x + y));
 
             // 2. Try doing multiplication with * 
-            
+            Console.WriteLine("x times y = " + (x * y));
 
-            
+
             // 3. Subtraction with - 
-                
-                
-                
-            // 4. Division with /
+            Console.WriteLine("x take y = " + (x - y));
 
-            
+
+            // 4. Division with /
+            Console.WriteLine("x divided by y = " + (x / y));
+
 
             // 5. Wait for input before ending
 
-
+            Console.ReadLine();
 
         }
     }
@@ -52,15 +52,15 @@ EXTENSION TASKS:
 QUESTIONS:
         
 1. What does "float.Parse" do?
-
+converts a string to a float
 
 
 2. What is a parameter? Give an example of where you have used one.
-
+the information used as input by a function
 
 
 3. Why is the 'Console.ReadLine()' a parameter to float.Parse?
-
+because it supplies information to float.parse
 
 
 
