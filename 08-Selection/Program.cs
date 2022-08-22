@@ -42,17 +42,17 @@ QUESTIONS:
         
 1. What does the < symbol mean?
 
-
+less than 
 
 
 2. What does selection mean?
 
-
+if else statements
 
 
 3. Which part executes if the condition is false (the 'if' part or 'else' part)?
 
-
+else
 
 
 EXAMPLE:
