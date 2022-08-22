@@ -13,13 +13,13 @@ namespace _08_Selection
             // 1. Make the program print out:
             // "Pass" if the mark is 50 or above
             // "Fail" if the mark is less than 50
-            if(mark < 50)
+            if (mark < 50)
             {
-                
+                Console.WriteLine("fail");
             }
-            else
+            else if (mark > 50) 
             {
-
+                Console.WriteLine("pass");
             }
 
             // Wait for input before ending
