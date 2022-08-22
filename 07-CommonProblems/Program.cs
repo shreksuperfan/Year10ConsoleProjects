@@ -13,11 +13,11 @@ namespace _07_CommonProblems
 
         static void Main(string[] args)
         {
-            string My name = "Jeff";
-            Console.ReadLine(My name is + name);
-            Console.WriteLine()
+            string Myname = "Jeff";
+            Console.WriteLine("My name is" + Myname);
+            Console.ReadLine();
         }
-    {
+    }
 }
 
 
