@@ -15,14 +15,34 @@ namespace _10_NumberOperations2
             double y = double.Parse(Console.ReadLine());
 
             // 1. Ask the user which mathematical operation they would like to do
-
-
+            Console.WriteLine("please pick an operation");
+            Console.WriteLine("add-1");
+            Console.WriteLine("take-2");
+            Console.WriteLine("times-3");
+            Console.WriteLine("divide-4");
             // 2. Store the choice in a string variable
-
+            string operation = Console.ReadLine();
 
             // 3. Use selection (if...else if...else) to print the correct operation
+            if (operation == "1")
+            {
+               Console.WriteLine($"{x} plus {y} ={x+y}");
+            }
 
+            if (operation == "2")
+            {
+                Console.WriteLine($"{x} take {y} ={x - y}");
+            }
 
+            if (operation == "3")
+            {
+                Console.WriteLine($"{x} times {y} ={x * y}");
+            }
+
+            if (operation == "4")
+            {
+                Console.WriteLine($"{x} divided by {y} ={x / y}");
+            }
             // Wait for any key before exiting
             Console.WriteLine();
             Console.WriteLine("Press any key to continue...");
