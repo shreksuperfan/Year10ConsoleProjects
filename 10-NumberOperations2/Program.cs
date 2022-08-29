@@ -64,12 +64,12 @@ QUESTIONS:
         
 1. What is the difference between Console.ReadLine()? and Console.ReadKey()?
 
-
+dunno
 
 
 2. Why do we store the choice as a string?
 
-
+because we wont be doing any math with it
 
 
 
