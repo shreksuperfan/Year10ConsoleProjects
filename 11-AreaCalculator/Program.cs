@@ -23,7 +23,13 @@ namespace _11_AreaCalculator
             }
 
             // 1. Area of rectangle
-
+            else if (choice == "2")
+            {
+                Console.WriteLine();
+                Console.Write("Height: ");
+                float radius = float.Parse(Console.ReadLine());
+                Console.WriteLine("Area: " + (Math.PI * radius * radius));
+            }
 
 
 
