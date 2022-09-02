@@ -12,7 +12,7 @@ namespace _11_AreaCalculator
             Console.WriteLine("2. Area of Rectangle");
             Console.WriteLine("3. Area of Triangle");
             string choice = Console.ReadLine();
-            
+
             // Area of Circle
             if (choice == "1")
             {
@@ -27,19 +27,35 @@ namespace _11_AreaCalculator
             {
                 Console.WriteLine();
                 Console.Write("Height: ");
-                float radius = float.Parse(Console.ReadLine());
-                Console.WriteLine("Area: " + (Math.PI * radius * radius));
+                float height = float.Parse(Console.ReadLine()); ;
+                Console.Write("Base: ");
+                float Base = float.Parse(Console.ReadLine());
+
+                Console.WriteLine("Area: " + (height * Base));
             }
 
 
 
             // 2. Area of triangle
+            else if (choice == "3")
+            {
 
 
+                Console.WriteLine();
+                Console.Write("Base: ");
+                float Base = float.Parse(Console.ReadLine());
+                Console.Write("perpendicular height: ");
+                float height = float.Parse(Console.ReadLine());
+
+                Console.WriteLine("Area: " + (0.5f * Base * height ));
+            }
 
 
             // 3. Invalid input
-
+            else
+            {
+                Console.WriteLine("please pick a shape") ;
+            }
 
 
 
