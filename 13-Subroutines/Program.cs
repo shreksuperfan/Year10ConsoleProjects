@@ -7,13 +7,16 @@ namespace _13_Subroutines
         static void Main(string[] args)
         {
             // 1. Create a subroutine called "SayHello" to print the message "Hello World"
-
+            sayhello();
 
             // The "Wait" subroutine is called here
             Wait();
 
         }
-
+        static void sayhello()
+        {
+            Console.WriteLine("hello world");
+        }
         static void Wait()
         {
             Console.ForegroundColor = ConsoleColor.Red;

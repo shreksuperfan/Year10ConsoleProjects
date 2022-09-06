@@ -29,12 +29,7 @@ namespace _12_BetterAreaCalculator
                 // Right click and then choose "Quick actions and Refactorings"
                 // Then choose "Extract Method"
                 // Give it the name: "CalculateRectangle" (no spaces allowed)
-                Console.WriteLine();
-                Console.Write("Width: ");
-                float width = float.Parse(Console.ReadLine());
-                Console.Write("Length: ");
-                float length = float.Parse(Console.ReadLine());
-                Console.WriteLine("Area: " + (width * length));
+                calculaterectangle();
             }
             else if (choice == "3")
             {
@@ -42,12 +37,7 @@ namespace _12_BetterAreaCalculator
                 // I have already created a subroutine below called "CalculateTriangle"
                 // Instead of using the quick actions as above, try cutting and pasting the code below into it
                 // You will then have to write "CalculateTriangle();" here to 'call' it
-                Console.WriteLine();
-                Console.Write("Base: ");
-                float width = float.Parse(Console.ReadLine());
-                Console.Write("Height: ");
-                float height = float.Parse(Console.ReadLine());
-                Console.WriteLine("Area: " + (0.5 * width * height));
+               CalculateTriangle();
             }
             else
             {
@@ -60,6 +50,16 @@ namespace _12_BetterAreaCalculator
             Console.ReadKey();
         }
 
+        private static void calculaterectangle()
+        {
+            Console.WriteLine();
+            Console.Write("Width: ");
+            float width = float.Parse(Console.ReadLine());
+            Console.Write("Length: ");
+            float length = float.Parse(Console.ReadLine());
+            Console.WriteLine("Area: " + (width * length));
+        }
+
         private static void CalculateCircle()
         {
             Console.WriteLine();
@@ -70,7 +70,12 @@ namespace _12_BetterAreaCalculator
 
         private static void CalculateTriangle()
         {
-
+            Console.WriteLine();
+            Console.Write("Base: ");
+            float width = float.Parse(Console.ReadLine());
+            Console.Write("Height: ");
+            float height = float.Parse(Console.ReadLine());
+            Console.WriteLine("Area: " + (0.5 * width * height));
         }
     }
 }
