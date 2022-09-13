@@ -16,24 +16,23 @@ namespace _15_Functions
             int additionResult = AddNumbers(x, y);
             Console.WriteLine($"{x} plus {y} equals {additionResult}");
 
-            // EXAMPLE 2: Using "AddNumbers" with the numbers 3 and 7 instead of the inputs
             int additionResult2 = AddNumbers(3, 7);
             Console.WriteLine($"3 plus 7 equals {additionResult2}");
+           int multiplicationresults = multiplynumbers(x, y);
+            Console.WriteLine($"{x} multiplied by {y} equals {multiplicationresults}");
+            int multiplicationresults2 = multiplynumbers(7, 5);
+            Console.WriteLine($"{7} multiplied by {5} equals {multiplicationresults2}");
 
-            // 1. Create a function called MultiplyNumbers that takes two integers, multiplies them and returns the result
-            // 2. Create a variable called "multiplicationResult" of type 'int' and assign it the result of the MultiplyNumbers function using 7 and 5
-
-
-            // 3. Output the result of the multiplication below. E.g. 7 times 5 = 35
-
-
-            // 4. Output the result of the MultiplyNumbers function using x and y with only one line of code
+            
 
 
             // The "Wait" subroutine is called here
             Wait();
         }
-
+        static int multiplynumbers(int num1, int num2)
+        {
+           return num1 * num2;
+        }
         // This functions takes two numbers, adds them and returns the answer
         private static int AddNumbers(int num1, int num2)
         {
@@ -53,7 +52,7 @@ namespace _15_Functions
             // 
             // 
             // 2. What does a function do that a subroutine does not?
-            // 
+            // return input
             // 
         }
 

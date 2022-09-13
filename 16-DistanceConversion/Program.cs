@@ -7,13 +7,16 @@ namespace _16_DistanceConversion
         static void Main(string[] args)
         {
             // Runs the menu and stores the choice
-            string choice = MainMenu();            
+            string choice = MainMenu();
 
             if (choice == "1")
             {
+                Console.WriteLine($" km in miles = {kmtomiles()}");
+               
                 // 1. Create a function that converts km to miles
                 // 2. Output the result of the function
                 // NOTE: You can use the function "GetDistance" inside your new function
+                
             }
             else if (choice == "2")
             {
@@ -30,11 +33,17 @@ namespace _16_DistanceConversion
             // Wait for key press before exiting
             WaitForKeyPress();
         }
+        private static double kmtomiles()
+        {
+            double km = GetDistance("km");
+            double miles = km * 0.62137;
+            return miles;
 
-        private static int GetDistance(string unit)
+        }
+        private static double GetDistance(string unit)
         {
             Console.Write($"Enter distance (in {unit}) to convert: ");
-            int distance = int.Parse(Console.ReadLine());
+            double distance = double.Parse(Console.ReadLine());
             return distance;
         }
 
